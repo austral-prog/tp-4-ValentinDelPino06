@@ -9,6 +9,5 @@ def line():
     y1 = a * x1 + b
     y2 = a * x2 + b
     print(f"\nDados los siguientes puntos:\n\tP1 ({x1}, {y1})\n\tP2 ({x2}, {y2})")
-    distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+	distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
     print(f"\nLa distancia entre ellos es: {distancia}")
-line()    
