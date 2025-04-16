@@ -1,6 +1,4 @@
 import math
-import unittest.mock
-import line as ex2
 def line():
 	a = float(input("Ingrese el coeficiente A: "))
 	b = float(input("Ingrese el coeficiente B: "))
